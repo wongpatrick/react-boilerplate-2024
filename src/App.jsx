@@ -2,10 +2,11 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import TicTacToe from './components/TicTacToe'
 import CssBaseline from "@mui/material/CssBaseline"
 import TodoList from './components/TodoList'
 import Navbar from './components/Navbar'
+import TicTacToe from './components/TicTacToe'
+import Pokemon from './components/Pokemon'
 
 function App() {
 
@@ -14,7 +15,8 @@ function App() {
       <CssBaseline />
       <Navbar />
       <TodoList />
-        {/* <TicTacToe /> */}
+      {/* <TicTacToe /> */}
+      <Pokemon />
     </>
   )
 }
